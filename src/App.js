@@ -15,10 +15,10 @@ function App() {
       <Header />
 
       <main className="is-tall">
-        <Route exact path ="/">
+        <Route exact path ="my-react-portfolio/">
           <Projects />
         </Route>
-        <Route exact path="/about" component={About} />
+        <Route exact path="my-react-portfolio/about" component={About} />
           
         
       </main>

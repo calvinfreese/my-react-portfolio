@@ -6,7 +6,7 @@ function Header() {
     return (
         <nav className="navbar is-info" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-            <a class="navbar-item" href="/">
+            <a class="navbar-item" href="my-react-portfolio/">
             <figure className="image is-32x32">
                 <img  className="is-rounded" src="/Assets/Images/logo.png" alt="logo" />
             </figure>
@@ -22,10 +22,10 @@ function Header() {
             
             <div id="navbarLinks" className={`navbar-menu ${activeStatus ? "is-active" : ""}`}>
                 <div className="navbar-start">
-                    <NavLink exact  className="navbar-item" to="/">
+                    <NavLink exact  className="navbar-item" to="my-react-portfolio/">
                         Portfolio
                     </NavLink>
-                    <NavLink exact  className="navbar-item" to="/about">
+                    <NavLink exact  className="navbar-item" to="my-react-portfolio/about">
                         About
                     </NavLink>
                 </div>
