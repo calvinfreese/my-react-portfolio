@@ -1,0 +1,137 @@
+/* ALL PAGES */
+
+/* Need these properties to fix the
+background-viewport issue on smaller screen sizes. */
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+  }
+  
+  /* Font and font color for Calvin Freese h1 */
+  .name {
+    font-size: 24px;
+    font-family: 'Permanent Marker', cursive;
+    background: linear-gradient(113deg, #E74343, #FFE96B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+  /* Add Orange Hover for each navbar item */
+  .nav-item:hover {
+      background-color: darkorange;
+  }
+  
+  /* Height: auto; and min-height: 100%; resolve the background cut-off on smaller screens. */
+  /* wrapper gives gradient background color to each page */
+  .wrapper {
+    background: linear-gradient(113deg, #FFE96B, #E74343);
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+   }
+  
+    /* page-box is the main div, inside 'wrapper', used on each page. */
+    .page-box {
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  
+      /* used on each page - h2 styling "about me", "contact me", "my portfolio" */
+      .intro-h2 {
+        margin: 5px;
+        padding: 5px;
+        font-family: 'Caveat', cursive;
+      }
+  
+  /* form {
+    padding: 15px;
+    
+  } */
+  /* About page h2 (index.html) */
+  .about-img {
+    margin: 10px;
+  }
+  .about-me-text {
+    margin: 10px;
+    padding: 3px;
+    line-height: 1.5;
+    
+  }
+  /* About Me Photo */
+  .photo-of-me {
+    margin: 10px;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+   }
+  
+  /* Contact Page (contact.html) */
+
+
+  .w-100 {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+  }  
+  h6 {
+    margin-top: 5px;
+  }
+  .list-group-item {
+      background-color: transparent;
+  }
+  
+  /* Portfolio Page (portfolio.html) */
+.img-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+  .portfolio-img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+  .btn {
+    margin: 6px;
+    max-height: 30;
+    max-width: fit-content;
+}
+
+
+  .push {
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+/* Footer */
+.sticky-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #343a40;
+  color: white;
+  text-align: center;
+}
+
+  
+  
+  @media (min-width: 768px) {
+    .page-box {
+      margin: 0 auto;
+      height: 100%;
+    }
+  }

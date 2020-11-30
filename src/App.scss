@@ -1,0 +1,52 @@
+@import "../node_modules/bulma/bulma.sass";
+@import "node_modules/bulma-block-list/src/block-list";
+
+
+$gradient-bottom: linear-gradient(180deg, #209CEEff, #45A7D5ff, #6AB2BCff, #90BDA3ff, #B5C789ff, #DAD270ff, #FFDD57ff);
+
+body {
+  background: $gradient-bottom;
+}
+
+.is-tall {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.is-tall-container {
+  flex: 1;
+}
+
+.about-p {
+  text-indent: 25px;
+  white-space: normal;
+  margin: 10px;
+  padding: 3px;
+  line-height: 1.5;
+}
+
+.profile-img {
+  height: 10em;
+  border-radius: 15px;
+  float: left;
+  margin-right: 10px;
+
+}
+
+.about-container-bg {
+  background-color: #F5F4F4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  height: 650px;
+}
+.no-decoration{
+  list-style-type: none;
+  display: inline;
+}
+
+.small-footer {
+  height: 10px;
+}
