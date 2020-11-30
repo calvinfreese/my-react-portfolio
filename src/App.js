@@ -11,15 +11,15 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 function App() {
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
 
       <main className="is-tall">
-        <Route exact path ="my-react-portfolio/">
-          <Projects />
-        </Route>
-        <Route exact path="my-react-portfolio/about" component={About} />
+        <Switch>
+          <Route exact path ="/" component={Projects} />
           
+          <Route path="/about" component={About} />
+        </Switch> 
         
       </main>
       <Footer />  

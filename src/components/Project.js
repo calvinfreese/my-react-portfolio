@@ -19,7 +19,7 @@ function Projects() {
                             <div key={index} className="card">
                                 <div className="card-image">
                                     <figure className="image is-3by2">
-                                    <img src={window.location.origin + prop.image} className="card-img-top" alt={prop.title} />
+                                    <img src={prop.image} className="card-img-top" alt={prop.title} />
                                     </figure>
                                 </div>
                             
@@ -43,7 +43,7 @@ function Projects() {
                             <div key={index} className="card">
                                 <div className="card-image">
                                     <figure className="image is-3by2">
-                                    <img src={window.location.origin + prop.image} className="card-img-top" alt={prop.title} />
+                                    <img src={prop.image} className="card-img-top" alt={prop.title} />
                                     </figure>
                                 </div>
                             
