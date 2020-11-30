@@ -9,7 +9,7 @@ function About() {
                         <h1 className="title notification is-info"> About Me</h1>
                         <div className="columns is-mobile is-centered">
                                 <div className="column">
-                                    <img className="profile-img" src={window.location.origin + '/Assets/Images/Photo_of_Me.jpg'} alt="my face" />
+                                    <img className="profile-img" src={'./images/Photo_of_Me.jpg'} alt="my face" />
                                 
                                 
                                 
