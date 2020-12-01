@@ -32,5 +32,5 @@ This assignment is provided by Trilogy Education Services. Code was structured b
 
 ## License
 
-[License]()
+[License](LICENSE)
 MIT (c) 2020 Calvin Freese
