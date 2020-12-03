@@ -41,7 +41,11 @@ body {
 
 .card {
   height: 650px;
+  overflow: auto;
 }
+
+
+
 .no-decoration{
   list-style-type: none;
   display: inline;

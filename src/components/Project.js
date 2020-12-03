@@ -1,72 +1,49 @@
 import React, { useContext } from 'react';
 import {PortfolioContext} from "../utils/PortfolioContext";
 
+import Card from './Card';
+
 
 
 function Projects() {
     const items = useContext(PortfolioContext)
     console.log(items)
     return (
-        <div className="container ">
+        <div className="container">
             <div className="level"></div>
-            <div className="columns is-multiline is-centered is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-1-fullhd">
-            {   
-                items.map((prop, index)=> {
-                    console.log(prop)
-                    if (!prop.live_site) {
-                    return ( 
-                        <div className="column is-4">
-                            <div key={index} className="card">
-                                <div className="card-image">
-                                    <figure className="image is-3by2">
-                                    <img src={prop.image} className="card-img-top" alt={prop.title} />
-                                    </figure>
-                                </div>
-                            
-                                <div className="card-content">
-                                    <div className="media-content">
-                                        <p className="title is-centered notification is-warning">{prop.title}</p>
-                                    </div>
-                                    <div className="content pt-2">
-                                        <p>{prop.description}</p>                                    
-                                    </div>
-                                    <footer className="card-footer">
-                                        <a href={prop.repo} rel="noreferrer" target="_blank" className="card-footer-item">Github Repository</a>
-                                    </footer>
-                                </div>
-                            </div>
-                       </div>
-                    )
-                    } else {
-                        return (
-                       <div className="column is-4">
-                            <div key={index} className="card">
-                                <div className="card-image">
-                                    <figure className="image is-3by2">
-                                    <img src={prop.image} className="card-img-top" alt={prop.title} />
-                                    </figure>
-                                </div>
-                            
-                                <div className="card-content">
-                                    <div className="media-content">
-                                        <p className="title is-centered notification is-warning">{prop.title}</p>
-                                    </div>
-                                    <div className="content pt-2">
-                                        <p>{prop.description}</p>                                    
-                                    </div>
-                                    <footer className="card-footer">
-                                        <a href={prop.repo} rel="noreferrer" target="_blank" className="card-footer-item">Github Repository</a>
-                                        <a href={prop.live_site} rel="noreferrer" target="_blank" className="card-footer-item">Live Site</a>
-                                    </footer>
-                                </div>
-                            </div>
-                       </div>
-                        )
-                    }
-            
-                }) 
-        
+            <div className="columns is-multiline is-centered is-mobile">
+           
+           
+            <PortfolioContext.Provider value={items}>
+                { items.map((item, i) => {
+                    return (
+                    <div className="column is-6">
+                            {item.live_site  
+                            ?<Card 
+                            key={i} 
+                            image={item.image}  
+                            title={item.title} 
+                            description={item.description} 
+                            repo={item.repo} 
+                            live_site={item.live_site} 
+                            technologies={item.technologies}
+                            />
+                            :
+                            <Card 
+                            key={i} 
+                            image={item.image} 
+                            title={item.title} 
+                            description={item.description} 
+                            repo={item.repo}
+                            technologies={item.technologies}
+                            />
+                            }
+                    </div>)
+                })
             }
+                
+            </PortfolioContext.Provider>
+            
             </div>
             <div className="level"></div>
         </div>
