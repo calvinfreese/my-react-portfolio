@@ -79,6 +79,7 @@ let portfolioItems = [
         title: "Worldwide COVID-19",
         image: "./images/worldwide-covid-19.png",
         description: "Delivers COVID-19 statistics, news articles, and visual data for a selected country by utilizing API calls with jQuery/Ajax.",
+        repo: "https://github.com/afazeez82/worldwidecovid19-githubio.com",
         live_site: "https://afazeez82.github.io/worldwidecovid19-githubio.com/",
         technologies: [
             "HTML/CSS",
