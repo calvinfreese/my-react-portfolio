@@ -16,11 +16,11 @@ function Projects() {
            
             <PortfolioContext.Provider value={items}>
                 { items.map((item, i) => {
-                    return (
-                    <div className="column is-6">
+                    return ( 
+                    <div key={i} className="column is-6">
                             {item.live_site  
                             ?<Card 
-                            key={i} 
+                            
                             image={item.image}  
                             title={item.title} 
                             description={item.description} 
@@ -30,7 +30,7 @@ function Projects() {
                             />
                             :
                             <Card 
-                            key={i} 
+                             
                             image={item.image} 
                             title={item.title} 
                             description={item.description} 

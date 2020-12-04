@@ -26,7 +26,7 @@ function Card({i, image, title, description, repo, live_site, technologies}) {
                             <ul>
                                 {
                                     technologies.map((tech, index) =>{
-                                        return <li className="tech-li" key={index}>{tech}</li>
+                                        return <li key={i} className="tech-li" > {tech}</li>
                                     })
                                 }    
                             </ul>                                   

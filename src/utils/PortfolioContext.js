@@ -1,4 +1,4 @@
-import React, {createContext} from 'react';
+import { createContext } from 'react';
 
 let portfolioItems = [
     {
@@ -48,7 +48,7 @@ let portfolioItems = [
     {
         id: 4,
         title: "React Employee Directory",
-        image: "./images/react-directory-display.png",
+        image: "./images/react-directory-base.png",
         description: "Construcuted with React, this application pulls in employee data from an API and maps each user to a row. Employees can be filtered by typing any portion of their name, phone, email, or birth year. Sorting by [A-Z] or [Z-A] can be performed on Name and Email, and by [0-9] or [9-0] Phone and DOB. Image is not a sortable item.",
         repo: "https://github.com/whackingMUFN/react-employee-directory",
         live_site: "https://whackingmufn.github.io/react-employee-directory/",
@@ -62,7 +62,7 @@ let portfolioItems = [
     {
         id: 5,
         title: "Budget Tracker",
-        image: "./images/budget-sample.png",
+        image: "./images/budget-tracker.png",
         description: "Track your incoming and outgoing transactions on or offline! While offline, transactions are cached using indexedDB. As soon as the application goes online, the records in indexedDB are pushed to a mongo database.",
         repo: "https://github.com/whackingMUFN/Budget-Tracker",
         live_site: "https://radiant-chamber-05596.herokuapp.com/",
