@@ -13,9 +13,9 @@ function About() {
                                 
                                 
                                 
-                                <h3 className="subtitle">Full Stack Web Developer, cat dad, and video game fanatic.</h3>
+                                {/* <h3 className="subtitle">Full Stack Web Developer, cat dad, and video game fanatic.</h3> */}
                                 
-                                    <p className="about-p">Dedicated Full Stack Web Developer intent on providing thorough and creative solutions while using empathy, problem-solving, and leadership skills refined by years of working in the IT space supporting customers in retail, corporate, and distribution environments. Web development certificate achieved through University of Minnesota College of Continuing and Professional Studies, St. Paul, MN. Aim to deliver responsive websites, catered to the functional requirements of the client without sacrificing design by utilizing my skills in React, Express, and Node.</p><p className="about-p"> In my free time, I can be found buried beneath a pile of sci-fi/fantasy novels, jamming on my guitar, exploring the vast world of Hyrule, or amongst the crowd at a local music venue.  </p> 
+                                    <p className="about-p">Dedicated Full Stack Web Developer intent on providing thorough and creative solutions while using empathy, problem-solving, and leadership skills refined by years of working in the IT space supporting customers in retail, corporate, and distribution environments. Web development certificate achieved through University of Minnesota College of Continuing and Professional Studies, St. Paul, MN. Aim to deliver responsive websites, catered to the functional requirements of the client without sacrificing design by utilizing my skills in React, Express, and Node.</p><p className="about-p"> When I'm not poring over code, I can be found buried beneath a pile of sci-fi/fantasy novels, jamming on my guitar, exploring the vast world of Hyrule, or amongst the crowd at a local music venue.  </p> 
                                 </div>
                         </div>
                     </div>
