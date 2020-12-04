@@ -33,7 +33,7 @@ function About() {
                                     </li>
 
                                     <li><i class="fa fa-file"></i><span> PDF Resume: </span> 
-                                        <a href="./Assets/Resume/CF-Resume-2020.pdf" rel="noreferrer" target="_blank"> Open</a>
+                                        <a href="./Assets/Resume/Calvin-Freese-Resume-2020.pdf" rel="noreferrer" target="_blank"> Open</a>
                                     </li>
 
                                     <li><i class="fa fa-github-square"></i><span> GitHub:</span>
