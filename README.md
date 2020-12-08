@@ -3,7 +3,7 @@
 ## Description
 Portfolio built using React, React Router, and Bulma. 
     
-* [Live Site](https://whackingmufn.github.io/my-react-portfolio/)
+* [Live Site](https://calvinfreese.github.io/my-react-portfolio/)
 
 ## Installation
 #### Tehcnologies Used
