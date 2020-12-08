@@ -29,7 +29,7 @@ function About() {
                                     </li>
 
                                     <li><i class="fa fa-envelope-square"></i><span> Email Address:</span>
-                                        <a href="mailto: calvin.freese@hotmail.com"> calvin.freese@hotmail.com</a>
+                                        <a href="mailto: calvin.freese@gmail.com"> calvin.freese@gmail.com</a>
                                     </li>
 
                                     <li><i class="fa fa-file"></i><span> PDF Resume: </span> 
@@ -37,7 +37,7 @@ function About() {
                                     </li>
 
                                     <li><i class="fa fa-github-square"></i><span> GitHub:</span>
-                                        <a href="https://github.com/whackingMUFN" rel="noreferrer" target="_blank"> whackingMUFN</a>
+                                        <a href="https://github.com/calvinfreese" rel="noreferrer" target="_blank"> calvinfreese</a>
                                     </li>
                                     <li><i class="fa fa-linkedin"></i> <span> LinkedIn:</span> 
                                         <a href="https://www.linkedin.com/in/calvin-freese-68376a121/" rel="noreferrer" target="_blank"> Calvin Freese</a>
