@@ -6,7 +6,7 @@ let portfolioItems = [
         title: "Eat Da Burger!",
         image: "./images/eat-da-burger.png",
         description: "Have you ever wanted to keep track of all the burgers you've consumed and have yet to consume? Then this is the app for you! Eat-Da-Burger allows users to add burgers via text-input and then devour them. Burgers devoured move to a separate list. All urgers added and devoured are stored in a SQL database table.",
-        repo: "https://github.com/whackingMUFN/Eat-Da-Burger",
+        repo: "https://github.com/calvinfreese/Eat-Da-Burger",
         live_site: "https://whispering-bayou-19745.herokuapp.com/",
         technologies: [
             "HTML/CSS",
@@ -23,7 +23,7 @@ let portfolioItems = [
         title: "Employee Manager",
         image: "./images/viewAll.gif",
         description: "Use this application to manage your company's employees, roles, and departments. Employee Manager uses a series of CLI prompts that kick off queries to a MySQL database based on the user's input.",
-        repo: "https://github.com/whackingMUFN/Employee_Manager",
+        repo: "https://github.com/calvinfreese/Employee_Manager",
         technologies: [
             "JavaScript",
             "Node & NPM",
@@ -35,7 +35,7 @@ let portfolioItems = [
         title: "Jasmine-RPG",
         image: "./images/jasmine-rpg.gif",
         description: "Create a fantasy character to take on adventures or send to the fight pits! Adventures allow characters to find ancient relics, armor, or weapons that will boost character stats.",
-        repo: "https://github.com/whackingMUFN/Jasmine-RPG",
+        repo: "https://github.com/calvinfreese/Jasmine-RPG",
         live_site: "https://team-jasmine-rpg.herokuapp.com/",
         technologies: [
             "HTML/CSS",
@@ -50,8 +50,8 @@ let portfolioItems = [
         title: "React Employee Directory",
         image: "./images/react-directory-base.png",
         description: "Construcuted with React, this application pulls in employee data from an API and maps each user to a row. Employees can be filtered by typing any portion of their name, phone, email, or birth year. Sorting by [A-Z] or [Z-A] can be performed on Name and Email, and by [0-9] or [9-0] Phone and DOB. Image is not a sortable item.",
-        repo: "https://github.com/whackingMUFN/react-employee-directory",
-        live_site: "https://whackingmufn.github.io/react-employee-directory/",
+        repo: "https://github.com/calvinfreese/react-employee-directory",
+        live_site: "https://calvinfreese.github.io/react-employee-directory/",
         technologies: [
             "HTML/CSS",
             "JavaScript",
@@ -64,7 +64,7 @@ let portfolioItems = [
         title: "Budget Tracker",
         image: "./images/budget-tracker.png",
         description: "Track your incoming and outgoing transactions on or offline! While offline, transactions are cached using indexedDB. As soon as the application goes online, the records in indexedDB are pushed to a mongo database.",
-        repo: "https://github.com/whackingMUFN/Budget-Tracker",
+        repo: "https://github.com/calvinfreese/Budget-Tracker",
         live_site: "https://radiant-chamber-05596.herokuapp.com/",
         technologies: [
             "HTML/CSS",
